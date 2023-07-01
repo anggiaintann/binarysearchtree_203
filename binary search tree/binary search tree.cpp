@@ -9,7 +9,7 @@ public:
 	Node* leftchild;
 	Node* rightchild;
 
-	//constructor for the node class
+	//Constructor for the node class
 	Node(string i, Node * l, Node* r)
 	{
 		info = i;
@@ -23,5 +23,9 @@ class BinaryTree
 public:
 	Node* ROOT;
 
-	
+	BinaryTree()
+	{
+		ROOT = NULL; //Initializing ROOT to null
+
+	}
 };
